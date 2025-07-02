@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    height: 100vh;
+    margin: 0;;
+}
+h1{
+    padding:10px;
+    position:absolute;
+    top:0px;
+    font-size: 2.5rem;
+    color:#333;
+    text-align: center;
+    width:21rem;
+    border: 25px solid aquamarine;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    border-bottom:none;
+}
+.todo-container{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    width:100%;
+    max-width: 400px;
+    border: none;
+}
+ul{
+    list-style: none;
+    padding:0;
+}
+#tasklist li{
+    background: #f8f9fa;
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove-btn{
+    background: none;
+    border: none;
+    color:red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#statictasks{
+    padding: 20px;
+    margin-top:1rem;
+    border: 25px solid aquamarine;
+    border-radius: 10px 10px 10px 10px;
+}
+#statictasks li{
+    list-style: none;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+.task-input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    margin-left:0.5rem;
+    padding:0.3rem;
+    flex:1;
+    outline:none;
+    font-size:1rem;
+    background: transparent;
+}
